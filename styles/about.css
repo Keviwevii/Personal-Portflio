@@ -1,0 +1,82 @@
+body {
+  font-family: "Roboto", sans-serif;
+  
+}
+.topnav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0px 0px 50px 0px;
+}
+.topnavlink a {
+  color: black;
+  text-decoration: none;
+  flex-basis: auto;
+  width: 20%;
+}
+.topnav a:hover {
+  color: grey;
+  font: bolder;
+}
+.topnav a.active {
+  color: black;
+  text-decoration: none;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  border-bottom: 2px solid black;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.container1 img, .container2 img {
+  max-width: 50%;
+  max-height: 50%;
+  margin: 0 auto;
+ display: block;
+}
+.container1 .box1 {
+    padding: 10px;
+}
+.container1 .box2 {
+    padding: 50px;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container2 img {
+    max-width: 100%;
+}
+.container3 {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   height: 200px;
+   border: 2px solid red;
+}
+.container3 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.container p{
+    justify-content: flex-end;
+}
+
+
