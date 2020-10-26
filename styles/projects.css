@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif;
+  font-family: Lato, sans-serif;
   }
   
   .topnav {
@@ -32,9 +32,39 @@ body {
     border-bottom: 2px solid black;
     text-align: center;
     margin-bottom: 30px;
-    font-family: "Open Sans", sans-serif;
+    font-family: Merriweather, serif;
   }
 
   h2 {
-      
+      text-align: center;
   }
+
+  .container1 {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .container2 .box {
+    
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, inset 0px 0px 0px 0px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, inset 0px 0px 0px 0px rgba(0,0,0,0);
+  }
+  .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  img {
+    max-width: 100%;
+    
+  }
+  a {
+    margin: 0 auto;
+  }
+  
