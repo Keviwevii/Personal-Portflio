@@ -18,10 +18,7 @@ a {
   color: grey;
   font: bolder;
 }
-.topnav a.active {
-  color: #000;
-  text-decoration: none;
-}
+
 .heading {
   display: flex;
   flex-direction: column;

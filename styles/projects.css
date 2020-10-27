@@ -7,10 +7,10 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0px 0px 50px 0px;
+    margin: 0 0 50px 0;
   }
-  .topnavlink a {
-    color: black;
+  a {
+    color: #000;
     text-decoration: none;
     flex-basis: auto;
     width: 20%;
@@ -19,10 +19,7 @@ body {
     color: grey;
     font: bolder;
   }
-  .topnav a.active {
-    color: black;
-    text-decoration: none;
-  }
+  
   
   .heading {
     display: flex;
@@ -48,7 +45,7 @@ body {
   }
 
   .container2 .box {
-    border: 1px solid rgb(223, 223, 223);
+    
     width: 300px;
     padding: 10px;
     margin: 10px;
@@ -63,7 +60,28 @@ body {
     max-height: 100%;
     
   }
-  a {
-    margin: 0 auto;
+  .container2 a {
+  background-color: white;
+  border: 1px solid grey;
+  padding: 5px;
   }
   
+  .sym {
+    background-color: deepskyblue;
+
+  }
+
+  .survey {
+    background-color: orange;
+    
+  }
+
+  .jsdoc {
+    background-color: gold;
+  }
+  .log {
+    background-color: blue;
+  }
+  .tipcal {
+    background-color: lightgrey;
+  }

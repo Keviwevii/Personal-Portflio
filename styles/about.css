@@ -8,7 +8,7 @@ body {
   justify-content: space-around;
   margin: 0 0 50px 0;
 }
-.topnavlink a {
+a {
   color: #000;
   text-decoration: none;
   flex-basis: auto;
@@ -17,10 +17,6 @@ body {
 .topnav a:hover {
   color: grey;
   font: bolder;
-}
-.topnav a.active {
-  color: #000;
-  text-decoration: none;
 }
 .heading {
   display: flex;
@@ -65,8 +61,7 @@ h2 {
 .container2 img {
   max-width: 100%;
 }
-.container2 .box1
-{
+.container2 .box1 {
   padding: 20px;
 }
 .container2 .box2 {

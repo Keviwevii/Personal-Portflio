@@ -1,0 +1,58 @@
+body {
+    font-family: Lato, sans-serif;
+    }
+    
+    .topnav {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: 0px 0px 50px 0px;
+    }
+    .topnavlink a {
+      color: black;
+      text-decoration: none;
+      flex-basis: auto;
+      width: 20%;
+    }
+    .topnav a:hover {
+      color: grey;
+      font: bolder;
+    }
+    .topnav a.active {
+      color: black;
+      text-decoration: none;
+    }
+    
+    .heading {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: nowrap;
+      border-bottom: 2px solid black;
+      text-align: center;
+      margin-bottom: 30px;
+      font-family: Merriweather, serif;
+    }
+    
+    .socialcontainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        align-self: center;
+        height: 500px;
+        width: 60%;
+        
+    }
+    .fab {
+      margin: 10px;
+      color: black;
+    }
+
+    .iconbox {
+      align-self: center;
+    }
+    
+  
