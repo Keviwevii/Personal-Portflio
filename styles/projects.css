@@ -1,88 +1,86 @@
 body {
   font-family: Lato, sans-serif;
-  }
-  
-  .topnav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 0 0 50px 0;
-  }
-  a {
-    color: #000;
-    text-decoration: none;
-    flex-basis: auto;
-    width: 20%;
-  }
-  .topnav a:hover {
-    color: grey;
-    font: bolder;
-  }
-  
-  
-  .heading {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
-    border-bottom: 2px solid black;
-    text-align: center;
-    margin-bottom: 30px;
-    font-family: Merriweather, serif;
-  }
+}
 
-  h2 {
-      text-align: center;
-  }
+.topnav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 0 50px 0;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  flex-basis: auto;
+  width: 20%;
+}
+.topnav a:hover {
+  color: grey;
+  font: bolder;
+}
 
-  .container1 {
-    display: flex;
-    justify-content: center;
-    width: 60%;
-    margin: auto;
-    margin-bottom: 20px;
-  }
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  border-bottom: 2px solid black;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: Merriweather, serif;
+}
 
-  .container2 .box {
-    
-    width: 300px;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-  }
-  .container2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  img {
-    max-width: 100%;
-    max-height: 100%;
-    
-  }
-  .container2 a {
+h2 {
+  text-align: center;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.container2 .box {
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.container2 a {
   background-color: white;
   border: 1px solid grey;
   padding: 5px;
-  }
-  
-  .sym {
-    background-color: deepskyblue;
+}
 
-  }
+.sym {
+  background-color: deepskyblue;
+}
 
-  .survey {
-    background-color: orange;
-    
-  }
+.survey {
+  background-color: orange;
+}
 
-  .jsdoc {
-    background-color: gold;
-  }
-  .log {
-    background-color: blue;
-  }
-  .tipcal {
-    background-color: lightgrey;
-  }
+.jsdoc {
+  background-color: gold;
+}
+.log {
+  background-color: blue;
+}
+.tipcal {
+  background-color: lightgrey;
+}
+.todo {
+  background-color: rgba(29, 123, 185, 0.5);
+}
